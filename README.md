@@ -11,7 +11,7 @@ A estação meteorológica é composta por um microcontrolador ESP32, responsáv
 
 ## Descrição das pinagens e conexões
 
-Com base na planilha enviada, a estação meteorológica utiliza um ESP32 como unidade central de processamento, responsável pela comunicação com os sensores e módulos periféricos. As conexões estão organizadas principalmente em dois grupos: o barramento I²C, compartilhado por vários sensores, e as conexões individuais utilizadas pelos módulos de medição.
+A estação meteorológica utiliza um ESP32 como unidade central de processamento, responsável pela comunicação com os sensores e módulos periféricos. As conexões estão organizadas principalmente em dois grupos: o barramento I²C, compartilhado por vários sensores, e as conexões individuais utilizadas pelos módulos de medição.
 
 ### Conexões dos sensores e módulos
 - BME680: sensor conectado ao barramento I²C, utilizando os pinos D23 (SCL) e D22 (SDA). Sua alimentação é realizada pelo pino 3V3, com GND comum.
