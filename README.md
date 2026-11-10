@@ -11,6 +11,7 @@ A estação meteorológica é composta por um microcontrolador ESP32, responsáv
 
 ##1. Descrição das pinagens e conexões
 Com base na planilha enviada, a estação meteorológica utiliza um ESP32 como unidade central de processamento, responsável pela comunicação com os sensores e módulos periféricos. As conexões estão organizadas principalmente em dois grupos: o barramento I²C, compartilhado por vários sensores, e as conexões individuais utilizadas pelos módulos de medição.
+
 ###1.1. Conexões dos sensores e módulos
 - BME680: sensor conectado ao barramento I²C, utilizando os pinos D23 (SCL) e D22 (SDA). Sua alimentação é realizada pelo pino 3V3, com GND comum.
 - INA219: módulo de monitoramento elétrico conectado ao barramento I²C, também utilizando D23 (SCL) e D22 (SDA). Possui conexões de alimentação VCC e GND, além dos terminais VIN+ e VIN− para medição elétrica.
@@ -26,6 +27,7 @@ Com base na planilha enviada, a estação meteorológica utiliza um ESP32 como u
 - Sensor UV (UVM-30A): conectado ao pino D1 por meio da saída OUT, com alimentação de 3,3 V e GND.
 - Pluviômetro: conectado ao pino D11 por meio do sinal SIG. A planilha indica alimentação e aterramento, mas não detalha o circuito interno do sensor.
 - Anemômetro HWFS-1: utiliza uma conexão individual com o ESP32. O esquema apresenta os fios positivo e negativo, além de um circuito com resistores de 1 kΩ e 4,7 kΩ para formar um nó de medição.
+
 ###1.2. Alimentação elétrica
 O sistema possui uma alimentação baseada em energia solar, utilizando um banco de três baterias de 2.200 mAh. A energia é fornecida por uma placa solar e gerenciada pelo circuito de alimentação.
 
