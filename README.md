@@ -14,7 +14,11 @@ A estação meteorológica é composta por um microcontrolador ESP32, responsáv
 A estação meteorológica utiliza um ESP32 como unidade central de processamento, responsável pela comunicação com os sensores e módulos periféricos. As conexões estão organizadas principalmente em dois grupos: o barramento I²C, compartilhado por vários sensores, e as conexões individuais utilizadas pelos módulos de medição.
 
 ### Conexões dos sensores e módulos
-| First Header  | Second Header | Third Header |
+| Função  | Pino D| Destino |
 | ------------- | ------------- | -------------|
-| Content Cell  | Content Cell  |              |
-| Content Cell  | Content Cell  |              |
+| BME680  | D22 e D23| |
+| INA219  | Content Cell  |              |
+| SCD40  | Content Cell  |              |
+| DS1307  | Content Cell  |              |
+| BH1750 | Content Cell  |              |
+| Módulo MicroSD  | Content Cell  |              |
