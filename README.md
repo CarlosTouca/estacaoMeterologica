@@ -24,3 +24,6 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 | Módulo MicroSD  | D23 e D23  |Controle e registro de cartão SD|
 
 
+![Texto alternativo da imagem](BME680.png)
+
+
