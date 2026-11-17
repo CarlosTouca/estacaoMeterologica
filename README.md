@@ -23,7 +23,7 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 | BH1750 | D22 e D23  |Dados de luminosidade|
 | Módulo MicroSD  | D23 e D23  |Controle e registro de cartão SD|
 
-#BANCO DE BATERIAS
+# BANCO DE BATERIAS
 
 ![Texto alternativo da imagem](Bateria e StepUP.png)
 
