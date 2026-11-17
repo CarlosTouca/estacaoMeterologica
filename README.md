@@ -16,9 +16,11 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 ### Conexões dos sensores e módulos
 | Função  | Pino D| Destino |
 | ------------- | ------------- | -------------|
-| BME680  | D22 e D23| |
-| INA219  | Content Cell  |              |
-| SCD40  | Content Cell  |              |
-| DS1307  | Content Cell  |              |
-| BH1750 | Content Cell  |              |
-| Módulo MicroSD  | Content Cell  |              |
+| BME680  | D22 e D23| |Dados de Temperatura
+| INA219  | D22 e D23  |Dados de consumo|
+| SCD40  | D22 e D23  ||
+| DS1307  | D22 e D23  |Módulo RTC|
+| BH1750 | D22 e D23  |Dados de luminosidade|
+| Módulo MicroSD  | D23 e D23  |Controle e registro de cartão SD|
+
+
