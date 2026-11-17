@@ -24,7 +24,7 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 | Módulo MicroSD  | D7;D2;D6;D3  |Controle e registro de cartão SD|
 |UVM-30A| D1 |Intensidade de UV|
 
-![TEXTO](https://github.com/CarlosTouca/estacaoMeterologica/blob/435a500b69bacd23df8b9db047c62a8f28f74e0f/PINAGEM%20ESP%2032.png)
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/435a500b69bacd23df8b9db047c62a8f28f74e0f/PINAGEM%20ESP%2032.png" alt="Descrição da imagem" width="50%">
 
 ## BANCO DE BATERIAS
 
