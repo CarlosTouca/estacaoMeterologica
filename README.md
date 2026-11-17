@@ -30,4 +30,4 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 
 O banco de armazenamento de energia é composto por três baterias do tipo 18650, ligadas em paralelo, cada uma com capacidade de 2.200 mAh e tensão nominal de 3,7 V. Para alimentar a placa ESP32, é utilizado um módulo conversor elevador de tensão (Step-Up DC/DC), responsável por elevar a tensão de saída de 3,7 V para 5 V, fornecendo a alimentação necessária ao microcontrolador.
 
-![texto](https://github.com/CarlosTouca/estacaoMeterologica/blob/33c26419561a7d041c30b115eba600eff1b06110/Bateria%20e%20StepUP.png)
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/33c26419561a7d041c30b115eba600eff1b06110/Bateria%20e%20StepUP.png" alt="Descrição da imagem" width="50%">
