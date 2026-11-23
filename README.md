@@ -16,9 +16,9 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 ### Conexões dos sensores e módulos
 | Função  | Pino D| Destino |
 | ------------- | ------------- | -------------|
-| BME680  | D22 e D23| |Dados de Temperatura
+| BME680  | D22 e D23| |Dados de Temperatura|
 | INA219  | D22 e D23  |Dados de consumo|
-| SCD40  | D22 e D23  ||
+| SCD40  | D22 e D23  |Dados de CO2|
 | DS1307  | D22 e D23  |Módulo RTC|
 | BH1750 | D22 e D23  |Dados de luminosidade|
 | Módulo MicroSD  | D7;D2;D6;D3  |Controle e registro de cartão SD|
@@ -26,20 +26,40 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/435a500b69bacd23df8b9db047c62a8f28f74e0f/PINAGEM%20ESP%2032.png" alt="Descrição da imagem" width="50%">
 
-## BANCO DE BATERIAS
+## Descrição de componentes
+
+### BANCO DE BATERIAS
 
 O banco de armazenamento de energia é composto por três baterias do tipo 18650, ligadas em paralelo, cada uma com capacidade de 2.200 mAh e tensão nominal de 3,7 V. Para alimentar a placa ESP32, é utilizado um módulo conversor elevador de tensão (Step-Up DC/DC), responsável por elevar a tensão de saída de 3,7 V para 5 V, fornecendo a alimentação necessária ao microcontrolador.
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/33c26419561a7d041c30b115eba600eff1b06110/Bateria%20e%20StepUP.png" alt="Descrição da imagem" width="50%">
 
+### MÓDULO SCD 
+
+* `teste`
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="50%">
 
+### SENSOR DE UV
+
+* `teste`
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/UVM30A.png" alt="Descrição da imagem" width="50%">
 
+### SENSOR DE LUMINOSIDADE
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/bh1750.png" alt="Descrição da imagem" width="50%">
 
+* `TESTE`
+
+### MÓDULO RTC
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/RTC.png" alt="Descrição da imagem" width="50%">
+
+* `TESTE`
+
+### SENSOR DE TEMPERATURA
+
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/f3bb301dc5b21527d462e4f3b7fc6aa927526879/BME680.png" alt="Descrição da imagem" width="50%">
+
+* `TESTE`
