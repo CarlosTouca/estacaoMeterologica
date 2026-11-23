@@ -36,13 +36,14 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 
 ### MÓDULO SCD 
 
-* `teste`
+* `VDD` e `GND` GND comum e alimentação
+* `SCL` GPIO 22 da ESP32
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="50%">
 
 ### SENSOR DE UV
 
-* `teste`
+* `VCC` e `GND` GND comum e alimentação
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/UVM30A.png" alt="Descrição da imagem" width="50%">
 
@@ -50,16 +51,19 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/bh1750.png" alt="Descrição da imagem" width="50%">
 
-* `TESTE`
+* `VCC` e `GND` GND comum e alimentação
+* `SCL` GPIO 22 da ESP32
 
 ### MÓDULO RTC
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/RTC.png" alt="Descrição da imagem" width="50%">
 
 * `TESTE`
+* `SCL` GPIO 22 da ESP32
 
 ### SENSOR DE TEMPERATURA
 
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/f3bb301dc5b21527d462e4f3b7fc6aa927526879/BME680.png" alt="Descrição da imagem" width="50%">
 
-* `TESTE`
+* `VCC` e `GND` GND comum e alimentação
+* `SCL` GPIO 22 da ESP32
