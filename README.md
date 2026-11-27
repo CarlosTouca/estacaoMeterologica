@@ -24,7 +24,7 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 | Módulo MicroSD  | D7;D2;D6;D3  |Controle e registro de cartão SD|
 |UVM-30A| D1 |Intensidade de UV|
 
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/435a500b69bacd23df8b9db047c62a8f28f74e0f/PINAGEM%20ESP%2032.png" alt="Descrição da imagem" width="50%">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/435a500b69bacd23df8b9db047c62a8f28f74e0f/PINAGEM%20ESP%2032.png" alt="Descrição da imagem" width="30%">
 
 ## Descrição de componentes
 
@@ -32,40 +32,47 @@ A estação meteorológica utiliza um ESP32 como unidade central de processament
 
 O banco de armazenamento de energia é composto por três baterias do tipo 18650, ligadas em paralelo, cada uma com capacidade de 2.200 mAh e tensão nominal de 3,7 V. Para alimentar a placa ESP32, é utilizado um módulo conversor elevador de tensão (Step-Up DC/DC), responsável por elevar a tensão de saída de 3,7 V para 5 V, fornecendo a alimentação necessária ao microcontrolador.
 
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/33c26419561a7d041c30b115eba600eff1b06110/Bateria%20e%20StepUP.png" alt="Descrição da imagem" width="50%">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/33c26419561a7d041c30b115eba600eff1b06110/Bateria%20e%20StepUP.png" alt="Descrição da imagem" width="30%">
 
 ### MÓDULO SCD 
 
 * `VDD` e `GND` GND comum e alimentação
-* `SCL` GPIO 22 da ESP32
+* `SCL` **GPIO 22** da ESP32
 
 <p align="center">
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="50%">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="30%">
 </p>
 
 ### SENSOR DE UV
 
 * `VCC` e `GND` GND comum e alimentação
 
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/UVM30A.png" alt="Descrição da imagem" width="50%">
+<p align="center">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/UVM30A.png" alt="Descrição da imagem" width="30%">
+</p>
 
 ### SENSOR DE LUMINOSIDADE
 
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/bh1750.png" alt="Descrição da imagem" width="50%">
+<p align="center">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/bh1750.png" alt="Descrição da imagem" width="30%">
+</p>
 
 * `VCC` e `GND` GND comum e alimentação
-* `SCL` GPIO 22 da ESP32
+* `SCL` **GPIO** 22 da ESP32
 
 ### MÓDULO RTC
 
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/RTC.png" alt="Descrição da imagem" width="50%">
+<p align="center">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/RTC.png" alt="Descrição da imagem" width="30%">
+</p>
 
 * `TESTE`
-* `SCL` GPIO 22 da ESP32
+* `SCL` **GPIO 22** da ESP32
 
 ### SENSOR DE TEMPERATURA
-
-<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/f3bb301dc5b21527d462e4f3b7fc6aa927526879/BME680.png" alt="Descrição da imagem" width="50%">
+<p align="center">
+<img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/f3bb301dc5b21527d462e4f3b7fc6aa927526879/BME680.png" alt="Descrição da imagem" width="30%">
+</p>
 
 * `VCC` e `GND` GND comum e alimentação
-* `SCL` GPIO 22 da ESP32
+* `SCL` **GPIO 22** da ESP32
