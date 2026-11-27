@@ -39,7 +39,9 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 * `VDD` e `GND` GND comum e alimentação
 * `SCL` GPIO 22 da ESP32
 
+<p align="center">
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="50%">
+</p>
 
 ### SENSOR DE UV
 
