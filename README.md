@@ -37,8 +37,9 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 ### MÓDULO SCD 
 
 * `VDD` e `GND` GND comum e alimentação
-* `SCL` **GPIO 22** da ESP32
-
+* `SCL`: **GPIO 23** da ESP32
+* `SDA`: **GPIO 22** da ESP32
+ 
 <p align="center">
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/SCD-40.png" alt="Descrição da imagem" width="30%">
 </p>
@@ -53,21 +54,23 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 
 ### SENSOR DE LUMINOSIDADE
 
+* `VCC` e `GND` GND comum e alimentação
+* `SCL`: **GPIO 23** da ESP32
+* `SDA`: **GPIO 22** da ESP32
+
 <p align="center">
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/bh1750.png" alt="Descrição da imagem" width="30%">
 </p>
 
-* `VCC` e `GND` GND comum e alimentação
-* `SCL` **GPIO** 22 da ESP32
-
 ### MÓDULO RTC
+
+* `VCC` e `GND` GND comum e alimentação
+* `SCL`: **GPIO 23** da ESP32
+* `SDA`: **GPIO 22** da ESP32
 
 <p align="center">
 <img src="https://github.com/CarlosTouca/estacaoMeterologica/blob/7235ee98b3dd74fedf7992b969f1d134b0d32eb8/RTC.png" alt="Descrição da imagem" width="30%">
 </p>
-
-* `TESTE`
-* `SCL` **GPIO 22** da ESP32
 
 ### SENSOR DE TEMPERATURA
 <p align="center">
@@ -75,4 +78,5 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 </p>
 
 * `VCC` e `GND` GND comum e alimentação
-* `SCL` **GPIO 22** da ESP32
+* `SCL`: **GPIO 23** da ESP32
+* `SDA`: **GPIO 22** da ESP32
