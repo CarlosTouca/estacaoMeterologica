@@ -85,3 +85,8 @@ O banco de armazenamento de energia é composto por três baterias do tipo 18650
 * `VCC` e `GND` GND comum e alimentação
 * `SCL`: **GPIO 23** da ESP32
 * `SDA`: **GPIO 22** da ESP32
+
+### CONVERSOR STEP-UP DC/DC
+
+* `Vin-` / `Vin+`: bateria de **3,7V**
+* `Vout-` / `Vout+`: saída de **5V** para ESP32
